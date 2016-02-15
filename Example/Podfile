@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SodyoSDK_Example', :exclusive => true do
+  pod 'SodyoSDK', :path => '../'
+end
+
+target 'SodyoSDK_Tests', :exclusive => true do
+  pod 'SodyoSDK', :path => '../'
+
+  
+end
