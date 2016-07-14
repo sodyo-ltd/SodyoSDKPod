@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.vendored_frameworks = 'Pod/Frameworks/SodyoSDK.framework'
-  s.resources = "Pod/Resources/SodyoResources.bundle"
+  s.resources = 'Pod/Resources/SodyoResources.bundle'
   # s.frameworks = 'UIKit', 'MapKit'
   s.libraries = 'c++'
   s.dependency 'AFNetworking', '~> 3.0'
