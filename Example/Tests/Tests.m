@@ -2,7 +2,7 @@
 //  SodyoSDKTests.m
 //  SodyoSDKTests
 //
-//  Created by Tomer Lavi on 02/15/2016.
+//  Created by Tomer Lavi on 07/14/2016.
 //  Copyright (c) 2016 Tomer Lavi. All rights reserved.
 //
 

@@ -1,5 +1,5 @@
 PODS:
-  - SodyoSDK (1.1.0)
+  - SodyoSDK (0.1.0)
 
 DEPENDENCIES:
   - SodyoSDK (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SodyoSDK: 916d7763adf44de040823afd01048a52a1542350
+  SodyoSDK: ef102dda572e12f9dda69be77a823349b7fb3afc
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 8a0163ceb9164dbc7e8b833d5e643aaecb52ad3a
+
+COCOAPODS: 1.0.1

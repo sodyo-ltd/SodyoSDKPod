@@ -19,16 +19,14 @@ Pod::Spec.new do |s|
   s.description      = "Sodyo scanner for Sodyo markers"
 
   s.homepage         = "https://github.com/SodyoSDK/SodyoSDKPod"
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Tomer Lavi" => "tomer@sodyo.com" }
   s.source           = { :git => "https://github.com/SodyoSDK/SodyoSDKPod.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.4'
-  s.requires_arc = true
+  s.ios.deployment_target = '8.4'
 
-  s.vendored_frameworks = 'Pod/Frameworks/SodyoSDK.framework'
-  s.resources = 'Pod/Resources/SodyoResources.bundle'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.vendored_frameworks = 'SodyoSDK/Frameworks/*'
+  s.resources = 'SodyoSDK/Resources/*'
   s.libraries = 'c++'
   s.dependency 'AFNetworking', '~> 3.0'
   s.dependency 'SDWebImage', '~> 3.7.5'
