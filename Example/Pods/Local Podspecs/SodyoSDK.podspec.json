@@ -1,0 +1,21 @@
+{
+  "name": "SodyoSDK",
+  "version": "1.1.0",
+  "summary": "Sodyo Markers SDK.",
+  "description": "Sodyo scanner for Sodyo markers",
+  "homepage": "https://assist@bitbucket.org/assist/sodyosdk",
+  "license": "MIT",
+  "authors": {
+    "Tomer Lavi": "tomer@assist.co.il"
+  },
+  "source": {
+    "git": "https://assist:t1t1t1t1@bitbucket.org/assist/sodyosdk.git",
+    "tag": "1.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "Pod/Frameworks/SodyoSDK.framework",
+  "resources": "Pod/Resources/SodyoResources.bundle"
+}

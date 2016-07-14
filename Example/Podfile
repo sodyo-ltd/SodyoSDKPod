@@ -1,4 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://assist@bitbucket.org/assist/sodyosdk.git'
 use_frameworks!
 
 target 'SodyoSDK_Example', :exclusive => true do
