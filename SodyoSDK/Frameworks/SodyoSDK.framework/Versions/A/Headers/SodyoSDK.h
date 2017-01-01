@@ -15,7 +15,9 @@
 @interface SodyoSDK : NSObject
 
 + (UIViewController*) SodyoScanner;
++ (UIViewController*) SodyoHistory;
 + (void) LoadApp:(NSInteger)AppID AppToken:(NSString*)AppToken Delegate:(NSObject<SodyoSDKDelegate>*)Delegate MarkerDelegate:(NSObject<SodyoMarkerDelegate>*)MarkerDelegate;
++ (NSUInteger) RecentScansCount;
 
 @end
 

@@ -22,8 +22,8 @@ pod "SodyoSDK"
 
 ## Author
 
-Tomer Lavi, tomer@assist.co.il
+Tomer Lavi, tomer@sodyo.com
 
 ## License
 
-SodyoSDK is available under the MIT license. See the LICENSE file for more info.
+SodyoSDK is available under the spcecified license. See the LICENSE file for more info.
