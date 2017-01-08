@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SodyoSDK"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Sodyo Markers SDK"
 
   s.description      = "Sodyo scanner for Sodyo markers"
