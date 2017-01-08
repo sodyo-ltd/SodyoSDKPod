@@ -1,6 +1,0 @@
-use_frameworks!
-target 'SodyoSDK_Tests' do
-  pod 'SodyoSDK', :path => '../'
-  
-  
-end

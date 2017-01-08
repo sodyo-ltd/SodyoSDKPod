@@ -1,0 +1,7 @@
+
+target 'SodyoSDKDemo' do
+  #pod 'SodyoSDK', :git => 'https://github.com/SodyoSDK/SodyoSDKPod.git'
+  pod 'SodyoSDK'
+  pod 'SDWebImage', '~> 3.7.5'
+  pod 'AFNetworking', '~> 3.0'
+end

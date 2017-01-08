@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C9970C9BDA705BED7DBE9858002851AE270B7057",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D207DD3C8C6536094EC23E1C0C34F149EFF491AB" : 9223372036854775807,
+    "C9970C9BDA705BED7DBE9858002851AE270B7057" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "91F882EA-FE23-4BD7-A4BB-03DCFBB571E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D207DD3C8C6536094EC23E1C0C34F149EFF491AB" : "..",
+    "C9970C9BDA705BED7DBE9858002851AE270B7057" : "SodyoSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SodyoSDKDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/SodyoSDKDemo\/SodyoSDKDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SodyoSDK\/SodyoSDKPod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C9970C9BDA705BED7DBE9858002851AE270B7057"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/assist\/sodyont.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D207DD3C8C6536094EC23E1C0C34F149EFF491AB"
+    }
+  ]
+}

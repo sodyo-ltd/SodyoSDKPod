@@ -1,6 +1,0 @@
-framework module SodyoSDK {
-  umbrella header "SodyoSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
