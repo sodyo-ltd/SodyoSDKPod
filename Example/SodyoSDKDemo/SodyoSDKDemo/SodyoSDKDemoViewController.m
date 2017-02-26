@@ -35,7 +35,7 @@
 }
 
 - (IBAction) launchSodyoScanner:(id)sender {
-	[self.navigationController pushViewController:[SodyoSDK SodyoScanner] animated:YES];
+	[self.navigationController pushViewController:[SodyoSDK initSodyoScanner] animated:YES];
 }
 
 - (IBAction) launchSodyoHistory:(id)sender {

@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'SodyoSDK/Frameworks/*'
   s.resources = 'SodyoSDK/Resources/*'
-  s.libraries = 'c++'
+  s.libraries = 'c++', 'sqlite3'
   s.dependency 'AFNetworking', '~> 3.0'
   s.dependency 'SDWebImage', '~> 3.7.5'
 end
