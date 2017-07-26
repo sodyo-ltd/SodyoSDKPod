@@ -18,6 +18,7 @@
 + (UIViewController*) SodyoHistory;
 + (void) LoadApp:(NSInteger)AppID AppToken:(NSString*)AppToken Delegate:(NSObject<SodyoSDKDelegate>*)Delegate MarkerDelegate:(NSObject<SodyoMarkerDelegate>*)MarkerDelegate;
 + (NSUInteger) RecentScansCount;
++ (void) HidePoweredBySodyo;
 
 @end
 
