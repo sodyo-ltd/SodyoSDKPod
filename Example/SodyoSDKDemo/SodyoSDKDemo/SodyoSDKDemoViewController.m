@@ -9,7 +9,7 @@
 #import "SodyoSDKDemoViewController.h"
 #import <SodyoSDK/SodyoSDK.h>
 
-@interface SodyoSDKDemoViewController () <SodyoSDKDelegate>
+@interface SodyoSDKDemoViewController () <SodyoSDKDelegate, SodyoMarkerDelegate>
 
 @property (nonatomic, retain) IBOutlet UILabel *scanResultLabel;
 @property (nonatomic, retain) IBOutlet UILabel *historySizeLabel;
@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-	[SodyoSDK LoadApp:3 AppToken:@"c296b77eba4525f21ba3ff8776728ba4" Delegate:self MarkerDelegate:nil];	
+	[SodyoSDK LoadApp:@"28e9f48c0dae4cec8d223c8331c97482" Delegate:self MarkerDelegate:self PresentingViewController:self];
 }
 
 - (void) viewDidAppear:(BOOL)animated {
@@ -35,7 +35,7 @@
 }
 
 - (IBAction) launchSodyoScanner:(id)sender {
-	[self.navigationController pushViewController:[SodyoSDK initSodyoScanner] animated:YES];
+	[self presentViewController:[SodyoSDK initSodyoScanner] animated:YES completion:nil];
 }
 
 - (IBAction) launchSodyoHistory:(id)sender {
