@@ -15,11 +15,13 @@
 @interface SodyoSDK : NSObject
 
 + (UIViewController*) initSodyoScanner;
++ (UIView*) overlayView;
++ (void) showDefaultOverlay;
++ (void) hideDefaultOverlay;
 + (UIViewController*) SodyoHistory;
 + (void) LoadApp:(NSInteger)AppID AppToken:(NSString*)AppToken Delegate:(NSObject<SodyoSDKDelegate>*)Delegate MarkerDelegate:(NSObject<SodyoMarkerDelegate>*)MarkerDelegate PresentingViewController:(UIViewController*)PresentingViewController;
 + (void) LoadApp:(NSString*)AppToken Delegate:(NSObject<SodyoSDKDelegate>*)Delegate MarkerDelegate:(NSObject<SodyoMarkerDelegate>*)MarkerDelegate PresentingViewController:(UIViewController*)PresentingViewController;
 + (NSUInteger) RecentScansCount;
-+ (void) HidePoweredBySodyo;
 
 @end
 
@@ -28,6 +30,7 @@
 @optional
 - (void) onSodyoAppLoadSuccess:(NSInteger)AppID;
 - (void) onSodyoAppLoadFailed:(NSInteger)AppID error:(NSError *)error;
+- (void) sodyoError:(NSError *)error;
 
 @end
 
@@ -35,6 +38,5 @@
 
 @optional
 - (void) SodyoMarkerDetectedWithData:(NSDictionary*)Data;
-- (void) SodyoLoadingUnknownMarker;
 
 @end
