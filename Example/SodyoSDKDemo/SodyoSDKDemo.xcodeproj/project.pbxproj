@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560079BA528FF15F67CECC27 /* libPods-SodyoSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E68AC35950394C54AD746DF5 /* libPods-SodyoSDKDemo.a */; };
+		F1BC46C11E1DF561007F0C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BC46C01E1DF561007F0C11 /* main.m */; };
+		F1BC46C41E1DF561007F0C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BC46C31E1DF561007F0C11 /* AppDelegate.m */; };
+		F1BCB9D21E2217AD00173045 /* SodyoSDKDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BCB9CF1E2217AD00173045 /* SodyoSDKDemo.storyboard */; };
+		F1BCB9D31E2217AD00173045 /* SodyoSDKDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BCB9D11E2217AD00173045 /* SodyoSDKDemoViewController.m */; };
+		F1BCB9D61E2218BA00173045 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BCB9D51E2218BA00173045 /* Default-568h@2x.png */; };
+		F1BCB9D81E221A1D00173045 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BCB9D71E221A1D00173045 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD56037E95BED33873E971B2 /* Pods-SodyoSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodyoSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SodyoSDKDemo/Pods-SodyoSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D3AC7738793EFE0227A1FC88 /* Pods-SodyoSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodyoSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SodyoSDKDemo/Pods-SodyoSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E68AC35950394C54AD746DF5 /* libPods-SodyoSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SodyoSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BC46BC1E1DF561007F0C11 /* SodyoSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SodyoSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BC46C01E1DF561007F0C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1BC46C21E1DF561007F0C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1BC46C31E1DF561007F0C11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1BC46D01E1DF561007F0C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BCB9CF1E2217AD00173045 /* SodyoSDKDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SodyoSDKDemo.storyboard; sourceTree = "<group>"; };
+		F1BCB9D01E2217AD00173045 /* SodyoSDKDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SodyoSDKDemoViewController.h; sourceTree = "<group>"; };
+		F1BCB9D11E2217AD00173045 /* SodyoSDKDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SodyoSDKDemoViewController.m; sourceTree = "<group>"; };
+		F1BCB9D51E2218BA00173045 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F1BCB9D71E221A1D00173045 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BC46B91E1DF561007F0C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560079BA528FF15F67CECC27 /* libPods-SodyoSDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38295694C273B3D7B0DB03D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E68AC35950394C54AD746DF5 /* libPods-SodyoSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA5BBA22D94F13D5DF419EF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD56037E95BED33873E971B2 /* Pods-SodyoSDKDemo.debug.xcconfig */,
+				D3AC7738793EFE0227A1FC88 /* Pods-SodyoSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1BC46B31E1DF561007F0C11 = {
+			isa = PBXGroup;
+			children = (
+				F1BC46BE1E1DF561007F0C11 /* SodyoSDKDemo */,
+				F1BC46BD1E1DF561007F0C11 /* Products */,
+				DA5BBA22D94F13D5DF419EF7 /* Pods */,
+				38295694C273B3D7B0DB03D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BC46BD1E1DF561007F0C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BC46BC1E1DF561007F0C11 /* SodyoSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BC46BE1E1DF561007F0C11 /* SodyoSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCB9D41E2218BA00173045 /* Resources */,
+				F1BC46C21E1DF561007F0C11 /* AppDelegate.h */,
+				F1BC46C31E1DF561007F0C11 /* AppDelegate.m */,
+				F1BCB9CF1E2217AD00173045 /* SodyoSDKDemo.storyboard */,
+				F1BCB9D01E2217AD00173045 /* SodyoSDKDemoViewController.h */,
+				F1BCB9D11E2217AD00173045 /* SodyoSDKDemoViewController.m */,
+				F1BC46D01E1DF561007F0C11 /* Info.plist */,
+				F1BC46BF1E1DF561007F0C11 /* Supporting Files */,
+			);
+			path = SodyoSDKDemo;
+			sourceTree = "<group>";
+		};
+		F1BC46BF1E1DF561007F0C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1BC46C01E1DF561007F0C11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1BCB9D41E2218BA00173045 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCB9D51E2218BA00173045 /* Default-568h@2x.png */,
+				F1BCB9D71E221A1D00173045 /* Icon@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BC46BB1E1DF561007F0C11 /* SodyoSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BC46D31E1DF561007F0C11 /* Build configuration list for PBXNativeTarget "SodyoSDKDemo" */;
+			buildPhases = (
+				7F28307E7975B41C3A00C97A /* [CP] Check Pods Manifest.lock */,
+				F1BC46B81E1DF561007F0C11 /* Sources */,
+				F1BC46B91E1DF561007F0C11 /* Frameworks */,
+				F1BC46BA1E1DF561007F0C11 /* Resources */,
+				670671F347BA4D9B8232CD11 /* [CP] Embed Pods Frameworks */,
+				AA653CCC67C47AA2B5CDB8A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SodyoSDKDemo;
+			productName = SodyoSDKDemo;
+			productReference = F1BC46BC1E1DF561007F0C11 /* SodyoSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BC46B41E1DF561007F0C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sodyo;
+				TargetAttributes = {
+					F1BC46BB1E1DF561007F0C11 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V4N4F4ECQG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F1BC46B71E1DF561007F0C11 /* Build configuration list for PBXProject "SodyoSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1BC46B31E1DF561007F0C11;
+			productRefGroup = F1BC46BD1E1DF561007F0C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BC46BB1E1DF561007F0C11 /* SodyoSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BC46BA1E1DF561007F0C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BCB9D21E2217AD00173045 /* SodyoSDKDemo.storyboard in Resources */,
+				F1BCB9D81E221A1D00173045 /* Icon@2x.png in Resources */,
+				F1BCB9D61E2218BA00173045 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		670671F347BA4D9B8232CD11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SodyoSDKDemo/Pods-SodyoSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F28307E7975B41C3A00C97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SodyoSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA653CCC67C47AA2B5CDB8A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SodyoSDKDemo/Pods-SodyoSDKDemo-resources.sh",
+				"${PODS_ROOT}/SodyoSDK/SodyoSDK/Resources/SodyoResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SodyoSDKDemo/Pods-SodyoSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BC46B81E1DF561007F0C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BC46C41E1DF561007F0C11 /* AppDelegate.m in Sources */,
+				F1BCB9D31E2217AD00173045 /* SodyoSDKDemoViewController.m in Sources */,
+				F1BC46C11E1DF561007F0C11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1BC46D11E1DF561007F0C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1BC46D21E1DF561007F0C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1BC46D41E1DF561007F0C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD56037E95BED33873E971B2 /* Pods-SodyoSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V4N4F4ECQG;
+				INFOPLIST_FILE = SodyoSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sodyoApps.SodyoSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1BC46D51E1DF561007F0C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AC7738793EFE0227A1FC88 /* Pods-SodyoSDKDemo.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V4N4F4ECQG;
+				INFOPLIST_FILE = SodyoSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sodyoApps.SodyoSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BC46B71E1DF561007F0C11 /* Build configuration list for PBXProject "SodyoSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BC46D11E1DF561007F0C11 /* Debug */,
+				F1BC46D21E1DF561007F0C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BC46D31E1DF561007F0C11 /* Build configuration list for PBXNativeTarget "SodyoSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BC46D41E1DF561007F0C11 /* Debug */,
+				F1BC46D51E1DF561007F0C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BC46B41E1DF561007F0C11 /* Project object */;
+}
