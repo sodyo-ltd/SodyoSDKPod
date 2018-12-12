@@ -10,28 +10,34 @@ import UIKit
 
 class ViewController: UIViewController, SodyoMarkerDelegate, SodyoSDKDelegate {
 	@IBOutlet weak private var launchScannerButton:UIButton!
-	@IBOutlet weak private var launchHistoryButton:UIButton!
 	@IBOutlet weak private var scanResultLabel:UILabel!
-	@IBOutlet weak private var historySizeLabel:UILabel!
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
 		SodyoSDK.loadApp("28e9f48c0dae4cec8d223c8331c97482", delegate: self, markerDelegate: self, presenting: self);
+		SodyoSDK.setCustomAdLabel("aaa,ccc,bbb");
+		
 		launchScannerButton.isEnabled = true;
 	}
 
-
-	@IBAction func launchSodyoScanner(sender: AnyObject) {
-		present(SodyoSDK.initSodyoScanner(), animated: true, completion: nil);
-	}
-
-	@IBAction func launchSodyoHistory(sender: AnyObject) {
-		present(SodyoSDK.sodyoHistory(), animated: true, completion: nil);
+	func addDemoCustomView() {
+		let overlay = SodyoSDK.overlayView();
+		let label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 200));
+		label.text = "Some test text";
+		label.textColor = UIColor.white;
+		label.center = overlay!.center;
+		overlay!.addSubview(label);
 	}
 	
+	@IBAction func launchSodyoScanner(sender: AnyObject) {
+		let sodyoScanner = SodyoSDK.initSodyoScanner();
+		self.addDemoCustomView();
+		present(sodyoScanner!, animated: true, completion: nil);
+	}
+
 	func sodyoMarkerDetected(withData Data: [AnyHashable : Any]) {
-		print("sodyoMarkerDetected(withData");
+		print("sodyoMarkerDetected(withData \(Data)");
 	}
 	
 	func onSodyoAppLoadSuccess(_ AppID: Int) {
@@ -39,7 +45,11 @@ class ViewController: UIViewController, SodyoMarkerDelegate, SodyoSDKDelegate {
 	}
 	
 	func onSodyoAppLoadFailed(_ AppID: Int, error: Error!) {
-		print("onSodyoAppLoadError");
+		print("onSodyoAppLoadError \(error)");
+	}
+	
+	func sodyoError(_ error: Error!) {
+		print("sodyoError \(error)");
 	}
 }
 

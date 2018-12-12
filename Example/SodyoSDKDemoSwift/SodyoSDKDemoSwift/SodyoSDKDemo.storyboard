@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QpP-nd-cZl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QpP-nd-cZl">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -68,60 +68,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0S-QN-Y04">
-                                <rect key="frame" x="16" y="225" width="288" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Twv-En-nuy"/>
-                                    <constraint firstAttribute="width" constant="288" id="xuE-rj-KUF"/>
-                                </constraints>
-                                <state key="normal" title="Launch Sodyo History"/>
-                                <connections>
-                                    <action selector="launchSodyoHistoryWithSender:" destination="4Y5-KN-4x7" eventType="touchUpInside" id="aVa-Mx-61h"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History Count:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oA0-KO-TpG">
-                                <rect key="frame" x="16" y="263" width="111" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="B5S-c3-DyD"/>
-                                    <constraint firstAttribute="width" constant="111" id="VRV-dh-Kmm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jba-YU-Tey" userLabel="Count">
-                                <rect key="frame" x="138" y="263" width="166" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="T0L-TR-sBG"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Jba-YU-Tey" firstAttribute="leading" secondItem="aBv-bJ-pd9" secondAttribute="leading" constant="138" id="11R-eL-NCG"/>
-                            <constraint firstItem="Jba-YU-Tey" firstAttribute="top" secondItem="aBv-bJ-pd9" secondAttribute="topMargin" constant="263" id="8Ld-mq-4Ts"/>
                             <constraint firstItem="erC-Uk-Pzb" firstAttribute="top" secondItem="aBv-bJ-pd9" secondAttribute="topMargin" constant="138" id="AsJ-bj-ri3"/>
                             <constraint firstItem="erC-Uk-Pzb" firstAttribute="leading" secondItem="aBv-bJ-pd9" secondAttribute="leading" constant="16" id="FDs-fj-tFz"/>
                             <constraint firstItem="gSJ-L6-aEt" firstAttribute="top" secondItem="aBv-bJ-pd9" secondAttribute="topMargin" constant="100" id="eor-em-BKQ"/>
                             <constraint firstItem="XGt-Ky-HKZ" firstAttribute="top" secondItem="aBv-bJ-pd9" secondAttribute="topMargin" constant="138" id="exV-1k-Gta"/>
                             <constraint firstItem="XGt-Ky-HKZ" firstAttribute="leading" secondItem="aBv-bJ-pd9" secondAttribute="leading" constant="138" id="nPy-ih-e2z"/>
                             <constraint firstItem="gSJ-L6-aEt" firstAttribute="centerX" secondItem="aBv-bJ-pd9" secondAttribute="centerX" id="nSm-bh-8lt"/>
-                            <constraint firstAttribute="trailing" secondItem="Jba-YU-Tey" secondAttribute="trailing" constant="16" id="sqP-Oc-zYy"/>
-                            <constraint firstItem="p0S-QN-Y04" firstAttribute="centerX" secondItem="aBv-bJ-pd9" secondAttribute="centerX" id="sxj-SR-H7A"/>
-                            <constraint firstItem="oA0-KO-TpG" firstAttribute="leading" secondItem="aBv-bJ-pd9" secondAttribute="leading" constant="16" id="trN-H3-rlk"/>
-                            <constraint firstItem="p0S-QN-Y04" firstAttribute="top" secondItem="aBv-bJ-pd9" secondAttribute="topMargin" constant="225" id="y5I-Xl-ypw"/>
                             <constraint firstAttribute="trailing" secondItem="XGt-Ky-HKZ" secondAttribute="trailing" constant="16" id="zN6-xY-JhO"/>
-                            <constraint firstItem="oA0-KO-TpG" firstAttribute="top" secondItem="aBv-bJ-pd9" secondAttribute="topMargin" constant="263" id="zsI-f5-fhj"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Sodyo SDK Demo" id="yyQ-ln-cvQ"/>
                     <connections>
-                        <outlet property="historySizeLabel" destination="Jba-YU-Tey" id="YIe-4r-9FD"/>
-                        <outlet property="launchHistoryButton" destination="p0S-QN-Y04" id="oqo-b7-Y7U"/>
                         <outlet property="launchScannerButton" destination="gSJ-L6-aEt" id="9cr-57-zQz"/>
                         <outlet property="scanResultLabel" destination="XGt-Ky-HKZ" id="Ojy-Zj-G8r"/>
                     </connections>
