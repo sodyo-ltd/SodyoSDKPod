@@ -16,7 +16,7 @@ class ViewController: UIViewController, SodyoMarkerDelegate, SodyoSDKDelegate {
 		super.viewDidLoad()
 
 		SodyoSDK.loadApp("28e9f48c0dae4cec8d223c8331c97482", delegate: self, markerDelegate: self, presenting: self);
-		SodyoSDK.setCustomAdLabel("aaa,ccc,bbb");
+		SodyoSDK.setCustomAdLabel("aaa,bbb,ccc");
 		
 		launchScannerButton.isEnabled = true;
 	}
