@@ -9,12 +9,12 @@
 #import "SodyoSDKDemoViewController.h"
 #import <SodyoSDK/SodyoSDK.h>
 
-@interface SodyoSDKDemoViewController () <SodyoSDKDelegate, SodyoMarkerDelegate>
+@interface SodyoSDKDemoViewController () <SodyoSDKDelegate, SodyoMarkerDelegate> {
+	UIViewController *sodyoScanner;
+}
 
 @property (nonatomic, retain) IBOutlet UILabel *scanResultLabel;
-@property (nonatomic, retain) IBOutlet UILabel *historySizeLabel;
 @property (nonatomic, retain) IBOutlet UIButton *launchScannerButton;
-@property (nonatomic, retain) IBOutlet UIButton *launchHistoryButton;
 
 @end
 
@@ -23,23 +23,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-	[SodyoSDK LoadApp:@"28e9f48c0dae4cec8d223c8331c97482" Delegate:self MarkerDelegate:self PresentingViewController:self];
+	[SodyoSDK LoadApp:@"28e9f48c0dae4cec8d223c8331c97482" Delegate:self MarkerDelegate:self PresentingViewController:nil];
 }
 
-- (void) viewDidAppear:(BOOL)animated {
-	[super viewDidAppear:animated];
-
-	NSUInteger historySize = [SodyoSDK RecentScansCount];
-	self.historySizeLabel.text = [@(historySize) stringValue];
-	self.launchHistoryButton.enabled = (historySize > 0);
+- (void) addDemoCustomView {
+	UIView *overlay = [SodyoSDK overlayView];
+	UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 200)];
+	label.text = @"Hello world";
+	label.textColor = [UIColor whiteColor];
+	label.center = overlay.center;
+	[overlay addSubview:label];
 }
 
 - (IBAction) launchSodyoScanner:(id)sender {
-	[self presentViewController:[SodyoSDK initSodyoScanner] animated:YES completion:nil];
-}
+	[SodyoSDK setCustomAdLabel:@"label1,label2"];
+	sodyoScanner = [SodyoSDK initSodyoScanner];
 
-- (IBAction) launchSodyoHistory:(id)sender {
-	[self.navigationController pushViewController:[SodyoSDK SodyoHistory] animated:YES];
+	[self addDemoCustomView];
+	[self.navigationController pushViewController:sodyoScanner animated:NO];
 }
 
 #pragma mark - SodyoSDKDelegate
@@ -51,4 +52,15 @@
 	NSLog(@"Failed loading Sodyo: %@", error);
 }
 
+- (void) sodyoError:(NSError *)error {
+	dispatch_async(dispatch_get_main_queue(), ^{
+		NSLog(@"sodyoError: %@", error.userInfo[@"NSLocalizedDescription"]);
+		[self dismissViewControllerAnimated:YES completion:nil];
+	});
+}
+
+- (void) SodyoMarkerDetectedWithData:(NSDictionary*)Data {
+	self.scanResultLabel.text = Data[@"sodyoMarkerData"];
+	NSLog(@"SodyoMarkerDetectedWithData: %@", Data[@"sodyoMarkerData"]);
+}
 @end
