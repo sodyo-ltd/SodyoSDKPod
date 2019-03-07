@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		560079BA528FF15F67CECC27 /* libPods-SodyoSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E68AC35950394C54AD746DF5 /* libPods-SodyoSDKDemo.a */; };
+		F1311FC321CA89A000AD813C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1311FC221CA89A000AD813C /* LaunchScreen.storyboard */; };
 		F1BC46C11E1DF561007F0C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BC46C01E1DF561007F0C11 /* main.m */; };
 		F1BC46C41E1DF561007F0C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BC46C31E1DF561007F0C11 /* AppDelegate.m */; };
 		F1BCB9D21E2217AD00173045 /* SodyoSDKDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BCB9CF1E2217AD00173045 /* SodyoSDKDemo.storyboard */; };
@@ -20,6 +21,7 @@
 		CD56037E95BED33873E971B2 /* Pods-SodyoSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodyoSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SodyoSDKDemo/Pods-SodyoSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D3AC7738793EFE0227A1FC88 /* Pods-SodyoSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodyoSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SodyoSDKDemo/Pods-SodyoSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E68AC35950394C54AD746DF5 /* libPods-SodyoSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SodyoSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1311FC221CA89A000AD813C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1BC46BC1E1DF561007F0C11 /* SodyoSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SodyoSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BC46C01E1DF561007F0C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1BC46C21E1DF561007F0C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				F1BCB9D41E2218BA00173045 /* Resources */,
 				F1BC46C21E1DF561007F0C11 /* AppDelegate.h */,
 				F1BC46C31E1DF561007F0C11 /* AppDelegate.m */,
+				F1311FC221CA89A000AD813C /* LaunchScreen.storyboard */,
 				F1BCB9CF1E2217AD00173045 /* SodyoSDKDemo.storyboard */,
 				F1BCB9D01E2217AD00173045 /* SodyoSDKDemoViewController.h */,
 				F1BCB9D11E2217AD00173045 /* SodyoSDKDemoViewController.m */,
@@ -122,7 +125,6 @@
 				F1BC46B81E1DF561007F0C11 /* Sources */,
 				F1BC46B91E1DF561007F0C11 /* Frameworks */,
 				F1BC46BA1E1DF561007F0C11 /* Resources */,
-				670671F347BA4D9B8232CD11 /* [CP] Embed Pods Frameworks */,
 				AA653CCC67C47AA2B5CDB8A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -174,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1BCB9D21E2217AD00173045 /* SodyoSDKDemo.storyboard in Resources */,
+				F1311FC321CA89A000AD813C /* LaunchScreen.storyboard in Resources */,
 				F1BCB9D81E221A1D00173045 /* Icon@2x.png in Resources */,
 				F1BCB9D61E2218BA00173045 /* Default-568h@2x.png in Resources */,
 			);
@@ -182,21 +185,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		670671F347BA4D9B8232CD11 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SodyoSDKDemo/Pods-SodyoSDKDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7F28307E7975B41C3A00C97A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,7 +214,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SodyoResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

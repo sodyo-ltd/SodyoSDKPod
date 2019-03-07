@@ -23,6 +23,8 @@
 + (void) LoadApp:(NSString*)AppToken Delegate:(NSObject<SodyoSDKDelegate>*)Delegate MarkerDelegate:(NSObject<SodyoMarkerDelegate>*)MarkerDelegate PresentingViewController:(UIViewController*)PresentingViewController;
 + (NSUInteger) RecentScansCount;
 + (void) setCustomAdLabel:(NSString*)label;
++ (void) setUserInfo:(NSDictionary*)userInfo;
++ (void) setUserId:(NSString*)userId;
 
 @end
 
