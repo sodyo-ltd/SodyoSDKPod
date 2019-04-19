@@ -25,6 +25,7 @@
 + (void) setCustomAdLabel:(NSString*)label;
 + (void) setUserInfo:(NSDictionary*)userInfo;
 + (void) setUserId:(NSString*)userId;
++ (void) setScannerParams:(NSDictionary*)params;
 
 @end
 
