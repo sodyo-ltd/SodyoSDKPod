@@ -1,6 +1,5 @@
 # SodyoSDK
 
-[![CI Status](http://img.shields.io/travis/Tomer Lavi/SodyoSDK.svg?style=flat)](https://travis-ci.org/Tomer Lavi/SodyoSDK)
 [![Version](https://img.shields.io/cocoapods/v/SodyoSDK.svg?style=flat)](http://cocoapods.org/pods/SodyoSDK)
 [![License](https://img.shields.io/cocoapods/l/SodyoSDK.svg?style=flat)](http://cocoapods.org/pods/SodyoSDK)
 [![Platform](https://img.shields.io/cocoapods/p/SodyoSDK.svg?style=flat)](http://cocoapods.org/pods/SodyoSDK)
