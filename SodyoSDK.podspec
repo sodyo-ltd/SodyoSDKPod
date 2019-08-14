@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SodyoSDK"
-  s.version          = "3.40.041"
+  s.version          = "4.00.01"
   s.summary          = "Sodyo Markers SDK"
 
   s.description      = "Sodyo scanner for Sodyo markers"
@@ -24,5 +24,4 @@ Pod::Spec.new do |s|
   s.resources = 'SodyoSDK/Resources/*'
   s.libraries = 'c++', 'sqlite3'
   s.dependency 'AFNetworking', '~> 3.0'
-  s.dependency 'SDWebImage', '~> 3.7.5'
 end
