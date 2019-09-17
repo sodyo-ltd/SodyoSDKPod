@@ -26,6 +26,7 @@
 + (void) setUserInfo:(NSDictionary*)userInfo;
 + (void) setUserId:(NSString*)userId;
 + (void) setScannerParams:(NSDictionary*)params;
++ (void) setPresentingViewController:(UIViewController*)presentingViewController;
 + (void) performMarker:(NSString *)markerID;
 
 @end
