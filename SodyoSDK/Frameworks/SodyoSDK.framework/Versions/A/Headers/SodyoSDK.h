@@ -26,6 +26,7 @@
 + (void) setUserInfo:(NSDictionary*)userInfo;
 + (void) setUserId:(NSString*)userId;
 + (void) setScannerParams:(NSDictionary*)params;
++ (void) performMarker:(NSString *)markerID;
 
 @end
 
@@ -42,6 +43,6 @@
 
 @optional
 - (void) SodyoMarkerDetectedWithData:(NSDictionary*)Data;
-- (void) SodyoMarkerContent:(NSDictionary*)Data;
+- (void) SodyoMarkerContent:(NSString*)markerId Data:(NSDictionary*)Data;
 
 @end
