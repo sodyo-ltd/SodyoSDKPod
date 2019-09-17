@@ -42,5 +42,6 @@
 
 @optional
 - (void) SodyoMarkerDetectedWithData:(NSDictionary*)Data;
+- (void) SodyoMarkerContent:(NSDictionary*)Data;
 
 @end
