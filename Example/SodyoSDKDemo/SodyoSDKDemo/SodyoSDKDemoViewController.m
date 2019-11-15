@@ -24,6 +24,8 @@
     [super viewDidLoad];
 
 	[SodyoSDK LoadApp:@"28e9f48c0dae4cec8d223c8331c97482" Delegate:self MarkerDelegate:self PresentingViewController:nil];
+	//Using present
+//	[SodyoSDK LoadApp:@"28e9f48c0dae4cec8d223c8331c97482" Delegate:self MarkerDelegate:self PresentingViewController:self];
 }
 
 - (void) addDemoCustomView {
@@ -41,6 +43,8 @@
 
 	[self addDemoCustomView];
 	[self.navigationController pushViewController:sodyoScanner animated:NO];
+//Using present
+//	[self presentViewController:sodyoScanner animated:YES completion:nil];
 }
 
 #pragma mark - SodyoSDKDelegate
