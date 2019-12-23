@@ -28,6 +28,8 @@
 + (void) setScannerParams:(NSDictionary*)params;
 + (void) setPresentingViewController:(UIViewController*)presentingViewController;
 + (void) performMarker:(NSString *)markerID;
++ (void) startScanning:(UIViewController*)sodyoScanner;
++ (void) stopScanning:(UIViewController*)sodyoScanner;
 
 @end
 
