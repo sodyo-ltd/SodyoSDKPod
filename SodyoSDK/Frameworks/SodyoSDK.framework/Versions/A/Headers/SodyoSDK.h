@@ -23,6 +23,7 @@
 + (void) LoadApp:(NSString*)AppToken Delegate:(NSObject<SodyoSDKDelegate>*)Delegate MarkerDelegate:(NSObject<SodyoMarkerDelegate>*)MarkerDelegate PresentingViewController:(UIViewController*)PresentingViewController;
 + (NSUInteger) RecentScansCount;
 + (void) setCustomAdLabel:(NSString*)label;
++ (void) setDetectionSound:(NSString*)path;
 + (void) setUserInfo:(NSDictionary*)userInfo;
 + (void) setUserId:(NSString*)userId;
 + (void) setScannerParams:(NSDictionary*)params;
