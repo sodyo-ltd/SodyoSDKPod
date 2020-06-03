@@ -31,6 +31,7 @@
 + (void) performMarker:(NSString *)markerID;
 + (void) startScanning:(UIViewController*)sodyoScanner;
 + (void) stopScanning:(UIViewController*)sodyoScanner;
++ (void) startTroubleshoot:(UIViewController*)sodyoScanner;
 
 @end
 
