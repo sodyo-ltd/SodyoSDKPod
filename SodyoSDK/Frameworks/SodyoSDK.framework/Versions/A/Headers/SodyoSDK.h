@@ -41,7 +41,7 @@
 - (void) onSodyoAppLoadSuccess:(NSInteger)AppID;
 - (void) onSodyoAppLoadFailed:(NSInteger)AppID error:(NSError *)error;
 - (void) sodyoError:(NSError *)error;
-
+- (void) onSodyoEvent:(NSString*)eventName eventData:(NSString*)eventData;
 @end
 
 @protocol SodyoMarkerDelegate
