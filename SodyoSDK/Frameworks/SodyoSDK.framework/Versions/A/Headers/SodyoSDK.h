@@ -26,6 +26,7 @@
 + (void) setDetectionSound:(NSString*)path;
 + (void) setUserInfo:(NSDictionary*)userInfo;
 + (void) setUserId:(NSString*)userId;
++ (void) setDynamicProfileValue:(NSString*)key value:(NSObject*)value;
 + (void) addScannerParams:(NSString*)key value:(NSString*)value;
 + (void) setScannerParams:(NSDictionary*)params;
 + (void) setPresentingViewController:(UIViewController*)presentingViewController;
