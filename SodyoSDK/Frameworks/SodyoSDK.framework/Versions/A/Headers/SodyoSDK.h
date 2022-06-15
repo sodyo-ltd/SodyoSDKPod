@@ -11,6 +11,10 @@
 @protocol SodyoSDKDelegate;
 @protocol SodyoMarkerDelegate;
 
+typedef enum {
+	SodyoModeNormal,
+	SodyoModeTroubleshoot
+} SodyoMode;
 
 @interface SodyoSDK : NSObject
 
@@ -34,6 +38,8 @@
 + (void) startScanning:(UIViewController*)sodyoScanner;
 + (void) stopScanning:(UIViewController*)sodyoScanner;
 + (void) startTroubleshoot:(UIViewController*)sodyoScanner;
++ (SodyoMode) getMode:(UIViewController*)sodyoScanner;
++ (void) setMode:(UIViewController*)sodyoScanner mode:(SodyoMode)mode;
 
 @end
 
@@ -44,6 +50,7 @@
 - (void) onSodyoAppLoadFailed:(NSInteger)AppID error:(NSError *)error;
 - (void) sodyoError:(NSError *)error;
 - (void) onSodyoEvent:(NSString*)eventName eventData:(NSString*)eventData;
+- (void) onModeChange:(SodyoMode)from to:(SodyoMode)to;
 @end
 
 @protocol SodyoMarkerDelegate
