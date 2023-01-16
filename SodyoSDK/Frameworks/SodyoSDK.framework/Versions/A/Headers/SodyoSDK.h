@@ -35,6 +35,7 @@ typedef enum {
 + (void) setScannerParams:(NSDictionary*)params;
 + (void) setPresentingViewController:(UIViewController*)presentingViewController;
 + (void) performMarker:(NSString *)markerID;
++ (void) performMarker:(NSString *)markerID customProperties:(NSDictionary*)customProperties;
 + (void) startScanning:(UIViewController*)sodyoScanner;
 + (void) stopScanning:(UIViewController*)sodyoScanner;
 + (void) startTroubleshoot:(UIViewController*)sodyoScanner;
