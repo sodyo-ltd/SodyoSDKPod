@@ -1,8 +1,7 @@
-platform :ios, '9.0'
+platform :ios, '15.0'
 
 target 'SodyoSDKDemoSwift' do
   use_frameworks!
-  #pod ‘SodyoSDK’
-  pod 'SodyoSDK', :git => 'https://github.com/SodyoSDK/SodyoSDKPod.git', :commit => '50c831a'
+  pod ‘SodyoSDK’
 end
 
