@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/Sodyo.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib</key>
 		<data>
-		1o8UvRLtPH18+Ge8KXLfYjwrrSM=
+		9QQjR8FAsAbmeunRMpzYq6A99FM=
 		</data>
 		<key>Base.lproj/Sodyo.storyboardc/Dhe-Us-bLu-view-J0y-Dw-grj.nib</key>
 		<data>
@@ -224,6 +224,10 @@
 		<data>
 		MXr+vSQYip/C0AOcRxJfTjcsTx0=
 		</data>
+		<key>crop_marks.png</key>
+		<data>
+		2OPQ1/WadOUj2jb6udpJSSX47hc=
+		</data>
 		<key>qr-code@2x.png</key>
 		<data>
 		IG2FZ14/o8jo/pRJh77ORCRDcLI=
@@ -254,11 +258,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1o8UvRLtPH18+Ge8KXLfYjwrrSM=
+			9QQjR8FAsAbmeunRMpzYq6A99FM=
 			</data>
 			<key>hash2</key>
 			<data>
-			U1IFMXbskod9ounAeXxoMGiqhaxk4QwNm6IQ9uWX4mE=
+			wCSDzXDwnhg6tcwPeUTCyMT9AoyW/K8giqiBUta+8Nw=
 			</data>
 		</dict>
 		<key>Base.lproj/Sodyo.storyboardc/Dhe-Us-bLu-view-J0y-Dw-grj.nib</key>
@@ -842,6 +846,17 @@
 			<key>hash2</key>
 			<data>
 			RaSny2xJ/50So44mBZdIYbk4vDg606ta2lVZrY7bly4=
+			</data>
+		</dict>
+		<key>crop_marks.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2OPQ1/WadOUj2jb6udpJSSX47hc=
+			</data>
+			<key>hash2</key>
+			<data>
+			mKe4AaqDzhBVxONjDgdCkxx+eBvDlxgudl96BMfejiw=
 			</data>
 		</dict>
 		<key>qr-code@2x.png</key>

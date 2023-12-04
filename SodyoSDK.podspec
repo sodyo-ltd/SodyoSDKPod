@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SodyoSDK"
-  s.version          = "3.62.01"
+  s.version          = "3.62.02"
   s.summary          = "Sodyo Markers SDK"
 
   s.description      = "Sodyo scanner for Sodyo markers"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author           = { "Tomer Lavi" => "tomer@sodyo.com" }
   s.source           = { :git => "https://github.com/SodyoSDK/SodyoSDKPod.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
 
   s.vendored_frameworks = 'SodyoSDK/Frameworks/*'
   s.resources = 'SodyoSDK/Resources/*'
