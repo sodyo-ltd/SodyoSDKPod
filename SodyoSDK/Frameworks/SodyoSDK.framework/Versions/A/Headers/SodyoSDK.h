@@ -30,6 +30,7 @@ typedef enum {
 + (void) setDetectionSound:(NSString*)path;
 + (void) setUserInfo:(NSDictionary*)userInfo;
 + (void) setUserId:(NSString*)userId;
++ (void) setDynamicProfile:(NSDictionary*)profile;
 + (void) setDynamicProfileValue:(NSString*)key value:(NSObject*)value;
 + (void) addScannerParams:(NSString*)key value:(NSString*)value;
 + (void) setScannerParams:(NSDictionary*)params;
