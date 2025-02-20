@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/Sodyo.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib</key>
 		<data>
-		3H/ZiAS/acFYfTUIRihYhGiD9lk=
+		9Z2ftpf9BjJdO+NmoWmMVz6stlk=
 		</data>
 		<key>Base.lproj/Sodyo.storyboardc/Dhe-Us-bLu-view-J0y-Dw-grj.nib</key>
 		<data>
@@ -154,15 +154,15 @@
 		</data>
 		<key>Troubleshoot.storyboardc/Nlb-NO-cJu-view-p7r-ys-fex.nib/objects-13.0+.nib</key>
 		<data>
-		4ctmAzlt0NQPz5M8EdiJ5jvia5Y=
+		FT20AR5IrL18yaPXpg31kwLmfeE=
 		</data>
 		<key>Troubleshoot.storyboardc/Nlb-NO-cJu-view-p7r-ys-fex.nib/objects-14.0+.nib</key>
 		<data>
-		l6avM56TjmTOLn55DUtt5nWCZr4=
+		cnBv5r0/Foq1Mt7xEGaycMzd8dQ=
 		</data>
 		<key>Troubleshoot.storyboardc/Nlb-NO-cJu-view-p7r-ys-fex.nib/runtime.nib</key>
 		<data>
-		O9zb7KEgjaxjO2cZfb2C5bsic3Y=
+		CCbhr42MH8VWtpmFPd4zzE7xv0Y=
 		</data>
 		<key>Troubleshoot.storyboardc/UINavigationController-06p-3c-eYI.nib/objects-13.0+.nib</key>
 		<data>
@@ -178,15 +178,15 @@
 		</data>
 		<key>Troubleshoot.storyboardc/UIViewController-Nlb-NO-cJu.nib/objects-13.0+.nib</key>
 		<data>
-		XzO8pwkGK9L4SHfWPa367fbElH0=
+		IlHgSWRsCQf3X52V1MTyVMEt+mc=
 		</data>
 		<key>Troubleshoot.storyboardc/UIViewController-Nlb-NO-cJu.nib/objects-14.0+.nib</key>
 		<data>
-		XzO8pwkGK9L4SHfWPa367fbElH0=
+		IlHgSWRsCQf3X52V1MTyVMEt+mc=
 		</data>
 		<key>Troubleshoot.storyboardc/UIViewController-Nlb-NO-cJu.nib/runtime.nib</key>
 		<data>
-		XzO8pwkGK9L4SHfWPa367fbElH0=
+		IlHgSWRsCQf3X52V1MTyVMEt+mc=
 		</data>
 		<key>Troubleshoot.storyboardc/tZ6-ab-DIf-view-Lxq-HU-gVE.nib/objects-13.0+.nib</key>
 		<data>
@@ -223,6 +223,10 @@
 		<key>capture.png</key>
 		<data>
 		6qiqi3cxpkKeTfryRtos5Q6Z1XA=
+		</data>
+		<key>chat@3x.png</key>
+		<data>
+		9UEsoaVN0yFXDH6hY/g7kk/BJN0=
 		</data>
 		<key>checkbox_not_ticked.png</key>
 		<data>
@@ -274,11 +278,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3H/ZiAS/acFYfTUIRihYhGiD9lk=
+			9Z2ftpf9BjJdO+NmoWmMVz6stlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			OTOG5es0C+zHNcFE/dMQeDeRIhK0rF5hTm2ujDGRx18=
+			c4Cn31Ck8/bBq/ELAS4uXyEnM28CUdCjbCQSGvckxxo=
 			</data>
 		</dict>
 		<key>Base.lproj/Sodyo.storyboardc/Dhe-Us-bLu-view-J0y-Dw-grj.nib</key>
@@ -670,33 +674,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4ctmAzlt0NQPz5M8EdiJ5jvia5Y=
+			FT20AR5IrL18yaPXpg31kwLmfeE=
 			</data>
 			<key>hash2</key>
 			<data>
-			csUseCxBqox1yrlx6JSbzKuxi1SUCQaWOecUzicCybk=
+			81IMbqqO+7fcImdgUNQ5xOeSCCV2pY9E1ObatQ9oBs4=
 			</data>
 		</dict>
 		<key>Troubleshoot.storyboardc/Nlb-NO-cJu-view-p7r-ys-fex.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l6avM56TjmTOLn55DUtt5nWCZr4=
+			cnBv5r0/Foq1Mt7xEGaycMzd8dQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			l76Qbsfc/uW+6PEoaNJA2FVvTWC3Dl/CXzRZgZCYyLQ=
+			9avJJGr2rF1bbzyeisTX+KC9+G64z6T4hBe+A7ShRZ4=
 			</data>
 		</dict>
 		<key>Troubleshoot.storyboardc/Nlb-NO-cJu-view-p7r-ys-fex.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O9zb7KEgjaxjO2cZfb2C5bsic3Y=
+			CCbhr42MH8VWtpmFPd4zzE7xv0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			4bo+j5r34N1CdmpDTdwVKA5SeI6DdLH7fEQeFqKC/Vg=
+			P09vVpJEWfIMGxFpMmH661ii19BB/ADDu0TZkG4klto=
 			</data>
 		</dict>
 		<key>Troubleshoot.storyboardc/UINavigationController-06p-3c-eYI.nib/objects-13.0+.nib</key>
@@ -736,33 +740,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XzO8pwkGK9L4SHfWPa367fbElH0=
+			IlHgSWRsCQf3X52V1MTyVMEt+mc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Eb2VKU0ulpChE4w962YwcV3NIW6HOB4Asd28nVswPUA=
+			xBRyGRyuDwdrGRXUIZyIxWdS1BykWJlJdqEQsyLmZbI=
 			</data>
 		</dict>
 		<key>Troubleshoot.storyboardc/UIViewController-Nlb-NO-cJu.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XzO8pwkGK9L4SHfWPa367fbElH0=
+			IlHgSWRsCQf3X52V1MTyVMEt+mc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Eb2VKU0ulpChE4w962YwcV3NIW6HOB4Asd28nVswPUA=
+			xBRyGRyuDwdrGRXUIZyIxWdS1BykWJlJdqEQsyLmZbI=
 			</data>
 		</dict>
 		<key>Troubleshoot.storyboardc/UIViewController-Nlb-NO-cJu.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XzO8pwkGK9L4SHfWPa367fbElH0=
+			IlHgSWRsCQf3X52V1MTyVMEt+mc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Eb2VKU0ulpChE4w962YwcV3NIW6HOB4Asd28nVswPUA=
+			xBRyGRyuDwdrGRXUIZyIxWdS1BykWJlJdqEQsyLmZbI=
 			</data>
 		</dict>
 		<key>Troubleshoot.storyboardc/tZ6-ab-DIf-view-Lxq-HU-gVE.nib/objects-13.0+.nib</key>
@@ -862,6 +866,17 @@
 			<key>hash2</key>
 			<data>
 			tFBNvVO4nFJdGhZ4zDfl0R+jC7YJBsq8MnVLGR8p9Lw=
+			</data>
+		</dict>
+		<key>chat@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9UEsoaVN0yFXDH6hY/g7kk/BJN0=
+			</data>
+			<key>hash2</key>
+			<data>
+			UbUmjSi+l/LeYuQr1HuEXBrOmS4QS1M2w3YAXMhWVv8=
 			</data>
 		</dict>
 		<key>checkbox_not_ticked.png</key>
