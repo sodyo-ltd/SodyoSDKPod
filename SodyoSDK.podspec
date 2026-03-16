@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author           = { "Tomer Lavi" => "tomer@sodyo.com" }
   s.source           = { :git => "https://github.com/SodyoSDK/SodyoSDKPod.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '18.0'
+  s.ios.deployment_target = '18'
 
   s.vendored_frameworks = 'SodyoSDK/Frameworks/*'
   s.resources = 'SodyoSDK/Resources/*'
