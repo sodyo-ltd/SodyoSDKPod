@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SodyoSDK"
-  s.version          = "3.69.03"
+  s.version          = "3.69.04"
   s.summary          = "Sodyo Markers SDK"
 
   s.description      = "Sodyo scanner for Sodyo markers"
@@ -20,12 +20,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '18.6'
 
-  s.vendored_frameworks = 'SodyoSDK/Frameworks/*'
+  s.vendored_frameworks = 'SodyoSDK/Frameworks/SodyoSDK.xcframework'
   s.resources = 'SodyoSDK/Resources/*'
   s.libraries = 'c++', 'sqlite3'
   s.dependency 'AFNetworking', '~> 4.0'
-
-#  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
-#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 
 end
