@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SodyoSDK"
-  s.version          = "3.69.01"
+  s.version          = "3.69.03"
   s.summary          = "Sodyo Markers SDK"
 
   s.description      = "Sodyo scanner for Sodyo markers"
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
   s.author           = { "Tomer Lavi" => "tomer@sodyo.com" }
   s.source           = { :git => "https://github.com/SodyoSDK/SodyoSDKPod.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '18'
+  s.ios.deployment_target = '18.6'
 
   s.vendored_frameworks = 'SodyoSDK/Frameworks/*'
   s.resources = 'SodyoSDK/Resources/*'
   s.libraries = 'c++', 'sqlite3'
   s.dependency 'AFNetworking', '~> 4.0'
 
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 
 end
