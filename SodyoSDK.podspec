@@ -24,4 +24,10 @@ Pod::Spec.new do |s|
   s.resources = 'SodyoSDK/Resources/*'
   s.libraries = 'c++', 'sqlite3'
 
+  s.frameworks = 'AVFoundation', 'CoreMotion', 'EventKit', 'MessageUI',
+                 'SafariServices', 'AudioToolbox', 'OpenGLES'
+  s.weak_frameworks = 'AddressBook'
+
+  s.dependency 'GPUImage', '~> 0.1'
+
 end
